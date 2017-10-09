@@ -3,7 +3,7 @@
  </head>
  <body>
   <script src="https://www.puck-js.com/puck.js"></script>
-  <button onclick="Puck.write('LED1.set();\n');analogWrite(D1, 0.5, { freq: 5000 });">On!</button>
-  <button onclick="Puck.write('LED1.reset();\n');digitalWrite(D1, 0);">Off!</button>
+  <button onclick="Puck.write('LED1.set();\n');Puck.analogWrite(D1, 0.5, { freq: 5000 });">On!</button>
+  <button onclick="Puck.write('LED1.reset();\n');Puck.digitalWrite(D1, 0);">Off!</button>
  </body>
 </html>
